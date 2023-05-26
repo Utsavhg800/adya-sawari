@@ -1,0 +1,154 @@
+/*For height and width*/
+
+.screenHeight {
+    height: 100vh;
+
+}
+/*88b01c*/
+
+.w-400 {
+    width: 400px;
+}
+
+.custom-card-form {
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card-form a {
+    color: black !important;
+}
+
+.auth-button {
+    min-width: 150px;
+    height: 40px;
+    background: #0088b8;
+    color: white;
+    border: 1px solid #0088b8;
+}
+
+.auth-button:hover {
+    background: #004b75;
+    color: white;
+    border: 1px solid #0088b8;
+}
+
+/*Inputs*/
+
+input, select {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;;
+}
+
+.ant-form-item {
+    margin: 0 !important;
+}
+
+/*Card*/
+.card-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+}
+
+/*Fonts*/
+
+.para-lg {
+    font-size: 30px;
+}
+
+.para-md {
+    font-size: 25px;
+}
+
+.para-sm {
+    font-size: 20px;
+}
+
+.para-vsm {
+    font-size: 15px;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.underline:hover {
+    color: green;
+}
+
+
+.disabled-button {
+    background: grey !important;
+    color: white;
+    border: none !important;
+    padding: 10px 20px;
+    border-radius: 0 !important;
+    cursor: not-allowed;
+}
+
+button {
+    border-radius: 0 !important;
+}
+
+/*anchor Tags*/
+
+a {
+    text-decoration: none !important;
+    color: var(--primary) !important;
+}
+
+i {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+h1, p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/*background img*/
+
+.bimg {
+    background-image: url('../images/50928.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+
+/*Spinner*/
+
+.spinner-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.spinner-border {
+    height: 80px;
+    width: 80px;
+}
